@@ -1,5 +1,6 @@
 import Elem from "../view/Elem";
 import {lista} from "../model/adatok";
+import "./admin.css";
 
 export default function Admin(props){
 
@@ -10,8 +11,8 @@ export default function Admin(props){
             <h2>Admin</h2>
             
             <div className="tabla">
-            <table>
-                <tbody>
+            <table className="table table-bordered">
+                <tbody className="ertek">
                     {
                         lista.map(
                             (elem, index)=>{

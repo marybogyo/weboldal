@@ -18,7 +18,7 @@ const Layout = () => {
     <article>
       <Outlet />
       </article>
-      <footer>Saját név</footer>
+      <footer className="text-center">Brátis Marianna</footer>
     </>
     
   )
