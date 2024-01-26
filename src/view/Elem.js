@@ -1,7 +1,7 @@
 import './Elem.css';
 export default function Elem(props){
     function kattintas(){
-
+ 
     }
     return(
 

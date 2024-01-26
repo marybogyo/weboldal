@@ -1,7 +1,7 @@
 import Elem from "../view/Elem";
 import {lista} from "../model/adatok";
 import "./admin.css";
-
+import Kartya from "../view/Kartya";
 export default function Admin(props){
 
 
@@ -9,6 +9,7 @@ export default function Admin(props){
     return(
         <div className="admin">
             <h2>Admin</h2>
+            
             
             <div className="tabla">
             <table className="table table-bordered">
